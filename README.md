@@ -44,7 +44,7 @@ Finally it will run `git log`.
 
 <br />
 
-:::warning
+::: warning
 ### Awareness ###
 :::
 
