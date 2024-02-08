@@ -44,9 +44,9 @@ Finally it will run `git log`.
 
 <br />
 
-:::::::::::::::::
+:::warning
 ### Awareness ###
-:::::::::::::::::
+:::
 
 Keep this file save, and can't be accessed from unwanted parties since you have your token within the file.
 
@@ -58,3 +58,8 @@ $ chmod 600 path/to/token_file
 ```
 
 It is better that this script file is not in the same folder/path after you download it through git clone.
+
+
+<br />
+
+
