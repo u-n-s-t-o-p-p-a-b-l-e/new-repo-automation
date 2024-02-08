@@ -44,9 +44,10 @@ Finally it will run `git log`.
 
 <br />
 
-:::
+:::::::::::::::::
 ### Awareness ###
-:::
+:::::::::::::::::
+
 Keep this file save, and can't be accessed from unwanted parties since you have your token within the file.
 
 This is just a quick solution, later on I will try to make it with another way such as using SSH keys or GPG keys. Maybe also this file will become two files, where your token will be in a separate file, and set appropriate permissions and restrict access to a token file.
