@@ -1,9 +1,6 @@
 new-repo-automation
 =                  
 
-# This is still work in progress
-**TODO:** *fix some bugs for not submitting README.md to the repo*
-
 
 <br />
 
@@ -26,7 +23,7 @@ $ chmod +x github-create-repo.sh
 
 * Run it and add your new repo name
 ```
-$ ./github-create-repo.sh my-new-repo
+bash ./github-create-repo.sh my-new-repo
 ```
 
 It will ask whether you want to make this repo public (Y/n). 
@@ -44,9 +41,8 @@ Finally it will run `git log`.
 
 <br />
 
-::: warning
+warning
 ### Awareness ###
-:::
 
 Keep this file save, and can't be accessed from unwanted parties since you have your token within the file.
 
