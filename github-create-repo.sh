@@ -19,6 +19,7 @@ username="u-n-s-t-o-p-p-a-b-l-e"
 
 # Change this with your git token inside ""
 git_token="YoUr_t0keN_h3re"
+
 pass_command="Enter host password for user '$username':"
 
 # Choose for public or private repository
@@ -69,14 +70,15 @@ echo "$equals_string" >> README.md
 # Adding newly created file
 git add .
 
+# Add origin to link git to github repo that just made
+# This will work only if SSH keys has been setup properly
+git remote add origin https://$git_token@github.com/$username/$repo_name.git
+
 # Git commit
 git commit -m "Initial commit"
 
 git branch -M main
 
-# Add origin to link git to github repo that just made
-# This will work only if SSH keys has been setup properly
-git remote add origin https://$git_token@github.com/$username/$repo_name.git
 
 # Push for the first time with Upstream 
 # 'main' also will be your next git push branch
